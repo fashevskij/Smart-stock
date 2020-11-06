@@ -1,0 +1,2 @@
+# Smart-stock
+Team work
