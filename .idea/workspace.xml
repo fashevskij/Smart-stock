@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:origin/main" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="4efab04b-f53f-47e9-b6cd-90db66eee8b0" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/smart.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/css/bootstrap-grid.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/css/bootstrap-grid.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/css/bootstrap-grid.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/css/bootstrap-grid.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/css/bootstrap-reboot.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/css/bootstrap-reboot.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/css/bootstrap-reboot.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/css/bootstrap-reboot.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/css/bootstrap.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/css/bootstrap.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/css/my.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/455bd824f6049c327f1fc038ec66642a-1240x620.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/eye-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/i.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/js/bootstrap.bundle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/js/bootstrap.bundle.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/js/bootstrap.bundle.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/js/bootstrap.bundle.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/js/bootstrap.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/js/bootstrap.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/js/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/js/my.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blockSite/colDoc.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blockSite/footer.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blockSite/header.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blockSite/sendOrderCap.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/collectedDoc.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/configs/db.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/configs/settings.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/create_orders.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/errorMessage.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/errorMessage2.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/function_description.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/getOrders.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/getProducts.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gettingProductsProcedure.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/exit.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/getOrdersList.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/getProductsList.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/gettingOrderList.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/gettingProductsOnStock.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/log_in.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/registration.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/searchDate.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/searchIdOrder.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/searchIdProducts.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/searchName.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/searchPlace.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/searchSize.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/sendProductList.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/sendingOrderList.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/sendingProductsFromStock.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/stockMarkUp.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/stockPositionFind.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/stockPositionGen.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/stockTreatment.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/stock_list.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sendProduct.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sendingProductsProcedure.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/settings.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shippedDoc.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/smartstock.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/statusChange.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stock.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/waitCollectDoc.php" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1juVUZ7ARSFrDKni0yrUSn7H9Xz" />
+  <component name="ProjectLevelVcsManager">
+    <OptionsSetting value="false" id="Update" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4efab04b-f53f-47e9-b6cd-90db66eee8b0" name="Default Changelist" comment="" />
+      <created>1604653979754</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1604653979754</updated>
+      <workItem from="1604653980783" duration="780000" />
+      <workItem from="1604654779273" duration="346000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/main" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="552" y="200" key="#Plugins" timestamp="1604654761287">
+      <screen x="0" y="40" width="1920" height="1040" />
+    </state>
+    <state x="552" y="200" key="#Plugins/0.40.1920.1040@0.40.1920.1040" timestamp="1604654761287" />
+    <state x="461" y="204" key="SettingsEditor" timestamp="1604654248646">
+      <screen x="0" y="40" width="1920" height="1040" />
+    </state>
+    <state x="461" y="204" key="SettingsEditor/0.40.1920.1040@0.40.1920.1040" timestamp="1604654248646" />
+    <state x="552" y="292" key="Vcs.Push.Dialog.v2" timestamp="1604654104732">
+      <screen x="0" y="40" width="1920" height="1040" />
+    </state>
+    <state x="552" y="292" key="Vcs.Push.Dialog.v2/0.40.1920.1040@0.40.1920.1040" timestamp="1604654104732" />
+    <state x="623" y="265" width="672" height="678" key="search.everywhere.popup" timestamp="1604654743452">
+      <screen x="0" y="40" width="1920" height="1040" />
+    </state>
+    <state x="623" y="265" width="672" height="678" key="search.everywhere.popup/0.40.1920.1040@0.40.1920.1040" timestamp="1604654743452" />
+  </component>
+</project>

@@ -1,0 +1,210 @@
+body {
+  background-image: url(../img/455bd824f6049c327f1fc038ec66642a-1240x620.jpg); 
+  width: 100%;
+  height: 100%;
+}
+
+.container {
+  position: absolute;
+  bottom: 55%;
+  left: 2%;
+}
+
+.unbreakable {
+  line-height: 1;
+  letter-spacing: -0.07em;
+  color: #c06f;
+}
+
+.ks {
+  font-family: Pompadur, 'Comic Sans MS', cursive;
+  font-size: 35px;
+  line-height: 1;
+  margin-top: 5px;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s cubic-bezier(0.19, 1, 0.22, 1) 3s;
+  -webkit-transform: translateX(-1000%);
+  -ms-transform: translateX(-1000%);
+  transform: translateX(-1000%);
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  color: #093f;
+}
+
+.ks2 {
+  font-family: Pompadur, 'Comic Sans MS', cursive;
+  font-size: 35px;
+  line-height: 1;
+  margin-top: 5px;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s cubic-bezier(0.19, 1, 0.22, 1) 4s;
+  -webkit-transform: translateX(-1000%);
+  -ms-transform: translateX(-1000%);
+  transform: translateX(-1000%);
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  color: black;
+}
+
+.ks1 {
+  font-family: Pompadur, 'Comic Sans MS', cursive;
+  font-size: 35px;
+  line-height: 1;
+  margin-top: 5px;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s cubic-bezier(0.19, 1, 0.22, 1) 3.3s;
+  -webkit-transform: translateX(-1000%);
+  -ms-transform: translateX(-1000%);
+  transform: translateX(-1000%);
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  color: black;
+}
+
+.ks11 {
+  font-family: Pompadur, 'Comic Sans MS', cursive;
+  font-size: 35px;
+  line-height: 1;
+  margin-top: 5px;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s cubic-bezier(0.19, 1, 0.22, 1) 3.7s;
+  -webkit-transform: translateX(-1000%);
+  -ms-transform: translateX(-1000%);
+  transform: translateX(-1000%);
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  color: black;
+}
+
+.animate .ks {
+  -webkit-transform: translateX(0);
+  -ms-transform: translateX(0);
+  transform: translateX(0);
+}
+
+.animate .ks1 {
+  -webkit-transform: translateX(0);
+  -ms-transform: translateX(0);
+  transform: translateX(0);
+}
+
+.animate .ks11 {
+  -webkit-transform: translateX(0);
+  -ms-transform: translateX(0);
+  transform: translateX(0);
+}
+
+.animate .ks2 {
+  -webkit-transform: translateX(0);
+  -ms-transform: translateX(0);
+  transform: translateX(0);
+}
+
+span {
+  font-family: Pompadur, 'Comic Sans MS', cursive;
+  font-size: 35px;
+  text-transform: uppercase;
+  opacity: 0;
+  color: #09cf;
+
+}
+
+.able {
+  -webkit-transition: all 0.3s cubic-bezier(0.19, 1, 0.22, 1) 2.3s;
+  transition: all 0.3s cubic-bezier(0.19, 1, 0.22, 1) 2.3s;
+  letter-spacing: -0.07em;
+}
+
+.break {
+  -webkit-transition: all 0.3s ease-in-out 2s;
+  transition: all 0.3s ease-in-out 2s;
+  letter-spacing: -0.07em;
+}
+
+.un {
+  -webkit-transition: all 0.3s ease-in-out 1.7s;
+  transition: all 0.3s ease-in-out 1.7s;
+  letter-spacing: -0.07em;
+}
+
+.animate .un {
+  font-size: 45px;
+  font-family: Pompadur, 'Comic Sans MS', cursive;
+  -webkit-transform: scale(1.5, 1.5);
+  -ms-transform: scale(1.5, 1.5);
+  transform: scale(1.5, 1.5);
+  opacity: 1;
+}
+
+.animate .break {
+  font-size: 50px;
+  font-family: Pompadur, 'Comic Sans MS', cursive;
+  -webkit-transform: scale(1.5, 1.5);
+  -ms-transform: scale(1.5, 1.5);
+  transform: scale(1.5, 1.5);
+  opacity: 1;
+}
+
+.animate .able {
+  font-size: 45px;
+ font-family: Pompadur, 'Comic Sans MS', cursive;
+  -webkit-transform: scale(1.5, 1.5);
+  -ms-transform: scale(1.5, 1.5);
+  transform: scale(1.5, 1.5);
+  opacity: 1;
+}
+
+.lake {
+display: inline-block;
+position: relative;
+margin: 0 auto;
+overflow: hidden;
+background: transparent;
+top: 10px;
+left: 81%;
+width: 340px;
+height: 350px;
+}
+
+.lac {
+display: block;
+max-width: 90%;
+transition: opacity .2s ease-in-out;
+width: 250px;
+height: 150px;
+}
+
+.lake:after,
+.lake:before {
+box-sizing: border-box;
+position: absolute;
+width:75%;
+padding: 30px;
+color: #cfff;
+transition: transform .4s ease-out;
+}
+
+.lake:after {
+content: attr(data-title);
+top: 0;
+height:20%;
+background: rgba(0,0,0,.4);
+font-size: 2rem;
+font-weight: 300;
+text-align: center;
+transform: translateX(-100%) scale(.8);
+}
+
+.lake:before {
+content: attr(data-description) "…";
+top: 20%;
+height: 80%;
+background: rgba(107,38,68,.6);
+font-size: 1.1rem;
+transform: translateY(100%) scale(.8);
+}
+
+.lake:hover:after,
+.lake:hover:before {
+transform: translateX(0%) scale(1);
+}
