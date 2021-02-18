@@ -7,7 +7,7 @@ $sql = "SELECT * FROM stock";
 // реализуем запрос
 $result = $connect->query($sql);
 
-// выводим список товара из запроса  
+// выводим список товара из запроса
 
 if (isset($_POST["searchName"])) {
   include $_SERVER['DOCUMENT_ROOT'] . '/modules/searchName.php';
@@ -30,8 +30,6 @@ if (isset($_POST["searchName"])) {
       if ($products['name'] != '') {
       ?>
         <tr>
-          <td> <?php echo $products['order_id'] ?></td>
-          <td><?php echo $products['prod_id'] ?></td>
           <td><?php echo $products['name'] ?></td>
           <td> <?php echo $products['size'] ?></td>
           <td><?php echo $products['rack'] ?></td>

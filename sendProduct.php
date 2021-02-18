@@ -14,7 +14,7 @@
            <p class="card-text">
                <!-- создаем таблицу-->
 
-               <table class="table table-responsive" >
+               <table class="table">
                    <thead class="thead-light">
                        <tr>
                            <th>№пп</th>

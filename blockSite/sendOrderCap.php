@@ -10,17 +10,6 @@ include "colDoc.php";
     <!--Создаем вкладки-->
     <ul class="nav nav-tabs">
 
-      </li>
-      <li class="nav-item">
-        <button class="btn"><a href="waitCollectDoc.php" class="nav-link
-        <?php if ($page == "wait_collect_doc") {
-          echo 'active';
-        }
-        ?>">Формирование сборки(<?php echo $col_doc_wait ?>)</a></button>
-
-      </li>
-
-      </li>
       <li class="nav-item">
         <button class="btn"><a href="shippedDoc.php" class="nav-link
         <?php if ($page == "shipped_doc") {
@@ -31,19 +20,3 @@ include "colDoc.php";
       </li>
 
     </ul>
-
-    <p class="card-text">
-      <!-- создаем таблицу-->
-      <table class="table table-responsive">
-        <thead class="thead-light">
-          <tr>
-            <th>Дата</th>
-            <th>Номер документа</th>
-            <th>Контрагент</th>
-            <th>Дата отгрузки</th>
-            <th>Коментарий</th>
-
-
-            <th></th>
-          </tr>
-        </thead>

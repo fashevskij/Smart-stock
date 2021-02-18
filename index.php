@@ -16,33 +16,23 @@ include 'blockSite/header.php';
 */
 if ($user_id == 0) {
 ?>
-  <div class="container">  
+  <div class="container">
     <div class="unbreakable">
       <span class="un">Smart </span>
       <span class="break">- </span>
       <span class="able">Stock</span>
     </div>
-
-    <div class="ks">Программа </div>
-    <!-- <div class="ks1">для</div> -->
-    <div class="ks11">управления</div>
-    <div class="ks2"> Складом </div>
   </div>
 
-  <div class="lake" 
-  data-title="Smart-Stock"
-  data-description="Уникальное Веб-приложение для управления складом, с помощью которого, можно быстро и эффективно принимать товар, размещать его на складе, вести учет.">
-    <img class="lac" src="assets/img/i.png">
-  </div>
 <?php
 }
 ?>
 
-<?php 
+<?php
 // подключаем файл авторизации
 include 'modules/log_in.php';
 
-// подключаем файл регистрации нового пользователя 
+// подключаем файл регистрации нового пользователя
 include 'modules/registration.php';
 ?>
 

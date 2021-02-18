@@ -11,7 +11,7 @@ include 'blockSite/header.php';
 	<div class="card-body">
 		<h5 class="card-title">Список предстоящих поставок</h5>
 		<p class="card-text">
-			<table class="table table-responsive">
+			<table class="table">
 				<thead class="thead-light">
 					<tr>
 						<th scope="col">Номер документа</th>

@@ -13,7 +13,7 @@ include 'blockSite/header.php';
 			<a href='/gettingProductsProcedure.php?orderId=<?php echo $_GET['orderId']; ?>' type="button" class="btn btn-primary float-right mr-1 mb-2" onclick='placeProductsOnStock(this)'>Принять товар</a>
 		</h5>
 		<p class="card-text">
-			<table class="table table-responsive">
+			<table class="table">
 				<thead class="thead-light">
 					<tr>
 						<th scope="col">Order</th>

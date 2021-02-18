@@ -8,7 +8,7 @@ include 'blockSite/header.php';
 
 if (isset($_POST["button-send"])) {
   //формируем запрос где в таблицу с заказами вставляем новый заказ введенный нами
-  $sql = "INSERT INTO `send_products`(`datatime`, `send_id`, `customer`, `shipping_date`, `status_send`, `info`) 
+  $sql = "INSERT INTO `send_products`(`datatime`, `send_id`, `customer`, `shipping_date`, `status_send`, `info`)
   VALUES ('" . $_POST['datatime'] . "' , '" . $_POST['send_id'] . "' , '" . $_POST['customer'] . "',
   '" . $_POST['shipping_date'] . "' , 'Ожидают сборки' , '" . $_POST['info'] . "')";
   // реализуем запрос
@@ -22,22 +22,22 @@ if (isset($_POST["button-send"])) {
 ?>
 
 <!--Создаем блок шапка инфо о товаре-->
+
 <form method="POST">
   <div id="stock" class="card mx-auto mt-2" style="width: 90%;">
     <div class="card-body">
       <h5 class="card-title">Наличие продукции на складе</h5>
       <p class="card-text">
-        <table class="table table-responsive">
+      <div class="row">
+        <table class="table">
           <thead class="thead-light">
             <tr>
-              <th>№ документа поставки</th>
-              <th>Уникальный номер продукта</th>
-              <th>Название продукта</th>
-              <th>Размер</th>
-              <th>Стелаж</th>
-              <th>Полка</th>
-              <th>Место</th>
-              <th>Дата постаки</th>
+              <th scope="col">Название продукта</th>
+              <th scope="col">Размер</th>
+              <th scope="col">Стелаж</th>
+              <th scope="col">Полка</th>
+              <th scope="col">Место</th>
+              <th scope="col">Дата постаки</th>
               <?php
               //если существует кнопка отправмить
               if (isset($_GET['send'])) {
@@ -45,7 +45,7 @@ if (isset($_POST["button-send"])) {
                 $sql = "SELECT * FROM `send_products` WHERE `send_id`=" . $_COOKIE["send_id"];
                 $result = mysqli_query($connect, $sql);
                 $send_id = mysqli_fetch_assoc($result);
-                
+
                 //если были выбраны товары
                 if (isset($_POST['select'])) {
                   for ($i = 0; $i < count($_POST['select']); $i++) {
@@ -61,7 +61,7 @@ if (isset($_POST["button-send"])) {
                     //формируем запрос в таблицу для смены статуса полки на свободный
                     $sql4 = "UPDATE `stock` SET `state`='free',`order_id`=''
                     ,`prod_id`='',`name`='',`size`='" . $products['size'] . "'
-                    ,`rack`='" . $products['rack'] . "',`shelf`='" . $products['shelf'] . "',`tray`='" . $products['tray'] . "',`date`='' 
+                    ,`rack`='" . $products['rack'] . "',`shelf`='" . $products['shelf'] . "',`tray`='" . $products['tray'] . "',`date`=''
                     WHERE `newid`=" . $_POST['select'][$i];
                     //выполняем запрос
                     $result4 = mysqli_query($connect, $sql4);
@@ -90,40 +90,28 @@ if (isset($_POST["button-send"])) {
           <tbody>
             <tr>
               <td>
-                <form class="form-inline my-2 my-lg-0 " method="POST">
-                  <input class="form-control form-control-sm mr-sm-2 mb-2" style="width: 70px" type="number" name="searchIdOrder" placeholder="Id order">
-                  <button class="btn btn-outline-success mr-sm-2 my-2 my-sm-0 btn-sm" type="submit">Поиск</button>
-                </form>
-              </td>
-              <td>
                 <form class="form-inline my-2 my-lg-0" method="POST">
-                  <input class="form-control form-control-sm mr-sm-2 mb-2" style="width: 80px" type="number" aria-label="Search" name="searchIdProducts" placeholder="Id products">
+                  <input class="form-control form-control-sm mr-sm-2 mb-2 mt-2" type="search" placeholder="Name products" aria-label="Search" name="searchName">
                   <button class="btn btn-outline-success mr-sm-5 my-2 my-sm-0 btn-sm" type="submit">Поиск</button>
                 </form>
               </td>
               <td>
                 <form class="form-inline my-2 my-lg-0" method="POST">
-                  <input class="form-control form-control-sm mr-sm-2 mb-2" type="search" placeholder="Name products" aria-label="Search" name="searchName">
-                  <button class="btn btn-outline-success mr-sm-5 my-2 my-sm-0 btn-sm" type="submit">Поиск</button>
-                </form>
-              </td>
-              <td>
-                <form class="form-inline my-2 my-lg-0" method="POST">
-                  <input class="form-control form-control-sm mr-sm-2 mb-2" style="width: 60px" type="search" aria-label="Search" name="searchSize" placeholder="Size">
+                  <input class="form-control form-control-sm mr-sm-2 mb-2 mt-2"  type="search" aria-label="Search" name="searchSize" placeholder="Size">
                   <button class="btn btn-outline-success mr-sm-5 my-2 my-sm-0 btn-sm" type="submit">Поиск</button>
                 </form>
               </td>
               <form method="POST">
                 <td>
 
-                  <input class="form-control form-control-sm mr-sm-2 mb-2" style="width: 60px" type="search" aria-label="Search" name="searchRack" placeholder="Rack">
+                  <input class="form-control form-control-sm mr-sm-2 mb-2 mt-2" style="width: 60px" type="search" aria-label="Search" name="searchRack" placeholder="Rack">
 
                 </td>
                 <td>
-                  <input class="form-control form-control-sm mr-sm-2 mb-2" style="width: 60px" type="search" aria-label="Search" name="searchShelf" placeholder="Shelf">
+                  <input class="form-control form-control-sm mr-sm-2 mb-2 mt-2" style="width: 60px" type="search" aria-label="Search" name="searchShelf" placeholder="Shelf">
                 </td>
                 <td>
-                  <input class="form-control form-control-sm mr-sm-2 mb-2" style="width: 60px" type="search" aria-label="Search" name="searchTray" placeholder="Tray">
+                  <input class="form-control form-control-sm mr-sm-2 mb-2 mt-2" style="width: 60px" type="search" aria-label="Search" name="searchTray" placeholder="Tray">
 
 
                   <button class="btn btn-outline-success mr-sm-5 my-2 my-sm-0 btn-sm" type="submit" name="searchPlace">Поиск</button>
@@ -133,14 +121,13 @@ if (isset($_POST["button-send"])) {
               </form>
               <td>
                 <form class="form-inline my-2 my-lg-0" method="POST">
-                  <input class="form-control form-control-sm mr-sm-2 mb-2" type="search" placeholder="Date" aria-label="Search" name="searchDate">
+                  <input class="form-control form-control-sm mr-sm-2 mb-2 mt-2" type="search" placeholder="Date" aria-label="Search" name="searchDate">
                   <button class="btn btn-outline-success mr-2 ml-2 btn-sm" type="submit">Поиск</button>
                 </form>
               </td>
             </tr>
           </tbody>
           <?php include "modules/stock_list.php"; ?>
-
         </table>
       </p>
     </div>

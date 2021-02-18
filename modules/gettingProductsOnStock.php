@@ -25,7 +25,7 @@ if (!($result = $connect->query($sql))) {
 	<div class="card-body">
 		<h5 class="card-title">Перечень оприходованного товара</h5>
 		<p class="card-text">
-			<table class="table table-responsive">
+			<table class="table">
 				<thead class="thead-light">
 					<tr>
 						<th scope="col">№пп</th>
